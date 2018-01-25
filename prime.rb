@@ -5,7 +5,7 @@ def prime?(number)
   if number <= 0
     false
   else
-    list_of_num = *(1..100000)
+    list_of_num = *(1..200000)
     divisor = list_of_num.select {|x| number % x == 0}
     #binding.pry
     if divisor.length == 2
