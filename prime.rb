@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if number < 0
+  if number <= 0
     false
   else
     list_of_num = *(1..20)
