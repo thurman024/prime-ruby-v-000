@@ -7,7 +7,7 @@ def prime?(number)
   else
     list_of_num = *(1..20)
     divisor = list_of_num.detect {|x| number % x == 0}
-    binding.pry
+    #binding.pry
     if divisor == number
       true
     else
