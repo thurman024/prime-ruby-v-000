@@ -12,7 +12,7 @@ def prime?(number)
     if divisor
       false
     else
-      ture
+      true
     end
   end
 end
