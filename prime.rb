@@ -9,3 +9,6 @@ def prime?(number)
     end
   end
 end
+
+puts prime?(5)
+puts prime?(8)
