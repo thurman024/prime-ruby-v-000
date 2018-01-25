@@ -4,8 +4,9 @@ def prime?(number)
     false
   else
     list_of_num = *(1..20)
-    list_of_num.all? do |x|
-      number % x != 0
+    divisor = list_of_num.detect? {|x| number % x == 0}
+    if divisor == number
+      true
     end
   end
 end
